@@ -21,8 +21,13 @@ ListaTrabalhos *setTrabalhos (ListaTrabalhos *trabalhos)
         fflush(stdin);
 		printf("\nLink :\n");
 		scanf("%[^\n]s", &trabalhos->link);
+        fflush(stdin);
 		printf("\Relevancia (avalie de 1 a 3):\n");
 		scanf("%d", &trabalhos->relevancia);
+        while(trabalhos->relevancia < 1 || trabalhos->relevancia > 3){
+            printf("\n Insira somente Valores Validos entre 1 e 3\n  ");
+            scanf("%d", &trabalhos->relevancia);
+        }
         printf("\nDigite o peso da trabalho:\n");
         scanf("%f", &trabalhos->peso);
         printf("\nDigite a nota da trabalho:\n");
@@ -43,8 +48,13 @@ ListaTrabalhos *setTrabalhos (ListaTrabalhos *trabalhos)
 		printf("\nLink :\n");
 		fflush(stdin);
 		scanf("%[^\n]s", &novo->link);
+
 		printf("\nRelevancia (avalie de 1 a 3):\n");
 		scanf("%d", &novo->relevancia);
+        while(novo->relevancia < 1 || novo->relevancia > 3){
+            printf("\n Insira somente Valores Validos entre 1 e 3\n  ");
+            scanf("%d", &novo->relevancia);
+        }
         printf("\nDigite o peso da trabalho:\n");
         scanf("%f", &novo->peso);
         printf("\nDigite a nota da trabalho:\n");
@@ -68,7 +78,12 @@ ListaTrabalhos editTrabalhos (ListaTrabalhos trabalho)
     printf("\nDigite o link do trabalho:\n");
     fflush(stdin);
     scanf("%[^\n]s", &trabalho.link);
+    fflush(stdin);
     printf("\nDigite a relevancia do trabalho:\n");
+    while(trabalho.relevancia < 1 || trabalho.relevancia > 3){
+        printf("\n Insira somente Valores Validos entre 1 e 3\n  ");
+        scanf("%d", &trabalho.relevancia);
+    }
     fflush(stdin);
     scanf("%[^\n]s", &trabalho.relevancia);
     printf("\nDigite o peso da trabalho:\n");
@@ -125,6 +140,7 @@ void imprimeTrabalhos(ListaTrabalhos *trabalhos)
             printf("\nData de trabalho: %d/%d/%d", aux->data.dia, aux->data.mes, aux->data.ano);
             printf("\nTema trabalho: %s", aux->tema);
             printf("\nPeso da trabalho: %f", aux->peso);
+            printf("\nRelevancia: %d", aux->relevancia);
             printf("\nNota da trabalho: %f", aux->nota);
             aux = aux->prox;
             printf("\n\n");
@@ -227,7 +243,7 @@ void imprimeTrabalhosPorRelevancia(ListaTrabalhos *trabalhos, int relevancia)
 			if(aux->relevancia == relevancia){
             printf("\nData de trabalho: %d/%d/%d", aux->data.dia, aux->data.mes, aux->data.ano);
             printf("\nTema trabalho: %s", aux->tema);
-			printf("\n Nivel de Relevancia do Trabaho %d: ", aux->relevancia);
+			printf("\n Nivel de Relevancia do Trabalho %d: ", aux->relevancia);
             printf("\nPeso da trabalho: %f", aux->peso);
             printf("\nNota da trabalho: %f", aux->nota);
             aux = aux->prox;
@@ -318,3 +334,5 @@ ListaTrabalhos *carregaTrabalho (ListaMaterias *materia, char *nome, int numPeri
     }
     return materia->trabalhos;
 }
+
+
