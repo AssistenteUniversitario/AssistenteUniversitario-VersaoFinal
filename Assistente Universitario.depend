@@ -1,0 +1,258 @@
+# depslib dependency file v1.0
+1530110897 source:c:\users\aluno\desktop\assistente universitario\aluno.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530111238 c:\users\aluno\desktop\assistente universitario\assistuniv.h
+	<stdlib.h>
+
+1530111238 source:c:\users\aluno\desktop\assistente universitario\aulas.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530110964 source:c:\users\aluno\desktop\assistente universitario\avaliacoes.c
+	"assistUniv.h"
+	<stdio.h>
+	<stdlib.h>
+
+1530110980 source:c:\users\aluno\desktop\assistente universitario\curso.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530110986 source:c:\users\aluno\desktop\assistente universitario\data.c
+	<stdlib.h>
+	"assistUniv.h"
+
+1530110998 source:c:\users\aluno\desktop\assistente universitario\faculdade.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530110934 source:c:\users\aluno\desktop\assistente universitario\main.c
+	<stdio.h>
+	<stdlib.h>
+	"assistUniv.h"
+
+1530111013 source:c:\users\aluno\desktop\assistente universitario\materias.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530111022 source:c:\users\aluno\desktop\assistente universitario\periodos.c
+	<stdlib.h>
+	"assistUniv.h"
+
+1530186733 source:c:\users\ricardo\desktop\assistente universitario\curso.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530189911 c:\users\ricardo\desktop\assistente universitario\assistuniv.h
+	<stdlib.h>
+
+1530186733 source:c:\users\ricardo\desktop\assistente universitario\data.c
+	<stdlib.h>
+	"assistUniv.h"
+
+1530186733 source:c:\users\ricardo\desktop\assistente universitario\faculdade.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530356049 source:c:\users\ricardo\desktop\assistente universitario\aluno.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+	<string.h>
+
+1530188102 source:c:\users\ricardo\desktop\assistente universitario\aulas.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530188103 source:c:\users\ricardo\desktop\assistente universitario\avaliacoes.c
+	"assistUniv.h"
+	<stdio.h>
+	<stdlib.h>
+
+1530188103 source:c:\users\ricardo\desktop\assistente universitario\main.c
+	<stdio.h>
+	<stdlib.h>
+	"assistUniv.h"
+
+1530188102 source:c:\users\ricardo\desktop\assistente universitario\materias.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530188318 source:c:\users\ricardo\desktop\assistente universitario\periodos.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+	<string.h>
+
+1530356568 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\aluno.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+	<string.h>
+
+1530654385 c:\users\aluno\downloads\assistente universitario\assistente universitario\assistuniv.h
+	<stdlib.h>
+
+1530188102 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\aulas.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530186733 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\curso.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530186733 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\data.c
+	<stdlib.h>
+	"assistUniv.h"
+
+1530186733 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\faculdade.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530188103 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\main.c
+	<stdio.h>
+	<stdlib.h>
+	"assistUniv.h"
+
+1530660867 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\materias.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530188318 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\periodos.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+	<string.h>
+
+1530660198 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\avaliacoes.c
+	"assistUniv.h"
+	<stdio.h>
+	<stdlib.h>
+
+1530659123 source:c:\users\aluno\downloads\assistente universitario\assistente universitario\trabalhos.c
+	"assistUniv.h"
+	<stdio.h>
+	<stdlib.h>
+
+1530356568 source:c:\users\ricardo\documents\github\assistente-universitario\aluno.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+	<string.h>
+
+1530778833 c:\users\ricardo\documents\github\assistente-universitario\assistuniv.h
+	<stdlib.h>
+
+1530783567 source:c:\users\ricardo\documents\github\assistente-universitario\aulas.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530660198 source:c:\users\ricardo\documents\github\assistente-universitario\avaliacoes.c
+	"assistUniv.h"
+	<stdio.h>
+	<stdlib.h>
+
+1530186733 source:c:\users\ricardo\documents\github\assistente-universitario\curso.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530186733 source:c:\users\ricardo\documents\github\assistente-universitario\data.c
+	<stdlib.h>
+	"assistUniv.h"
+
+1530186733 source:c:\users\ricardo\documents\github\assistente-universitario\faculdade.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530188103 source:c:\users\ricardo\documents\github\assistente-universitario\main.c
+	<stdio.h>
+	<stdlib.h>
+	"assistUniv.h"
+
+1530781047 source:c:\users\ricardo\documents\github\assistente-universitario\materias.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530779173 source:c:\users\ricardo\documents\github\assistente-universitario\periodos.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+	<string.h>
+
+1530659123 source:c:\users\ricardo\documents\github\assistente-universitario\trabalhos.c
+	"assistUniv.h"
+	<stdio.h>
+	<stdlib.h>
+
+1530896428 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\aluno.c
+	<stdlib.h>
+	<stdio.h>
+	<windows.h>
+	"assistUniv.h"
+
+1530880892 c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\assistuniv.h
+	<stdlib.h>
+
+1530890621 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\aulas.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530890621 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\avaliacoes.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530879890 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\curso.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530849979 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\data.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530879890 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\faculdade.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530892839 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\materias.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530890621 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\periodos.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530896488 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\main.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
+1530890621 source:c:\users\cultura 36\downloads\assistenteuniversitario1.1-master\trabalhos.c
+	<stdlib.h>
+	<stdio.h>
+	"assistUniv.h"
+
